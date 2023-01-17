@@ -68,3 +68,36 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+<!-- FOLDER STRUCTURE -->
+<!-- Npm is a tool that use to install packages. Npx is a tool that use to execute packages. -->
+
+<!-- 1. ReadMe.md file. It is like a document where we can write the important notes related to our react app -->
+
+<!--2. .gitignore. It tells the git which files to ignore(not include) while the project is commiting in github repository -->
+
+<!--3. node modules. It containes all the packages(in-built functionalities and methods) and dependencies-->
+<!-- Dependencies: code which is extracted from other project. A dependency is just a package that your project uses. Very few javascript projects are entirely self-contained. When your project needs code from other projects in order to do its thing, those other projects are “dependencies”; your project depends on them to run.-->
+
+
+<!-- 4.package.json: It contains the list of all dependencies that have been installed in the app 
+package.json = meta data associated with the app + dependencies info + scripts-->
+
+<!-- 5. package-lock.json: It keeps the track of exact version of every package that is installed in the react app. It containes the history(updates) of every package installed-->
+
+<!-- 6. public: It containes the static files. -->
+<!-- public folder files : 1)favicon.icon, It is the favicon of our app/websites 
+                           2)index.html, This is the main file that opens in our browser and holds the html templete of our app
+                           3) manifest.json, It provides the info about the app(name, author, icon and description) in a json text file in public folder. The purpose of the manifest is to install webapplication to the home screen of the users device -->
+
+<!-- 7. src(most important): This where you do the coding of your app, In this folder you place all your files related to development like pages/components, css files, images etc; 
+1) app.css -> It is a css file that contain css related to app.js,and It can also be used globally.
+2) app.js -> It the parent component of the react app and by default it containes the basic component code.
+3)app.test.js -> It is a test file and containes a basic test for app.js component.
+4)index.css -> It is a css file that contain css related to index.js(also can be used globally).
+5)index.js -> It is actually an entry point of our react app it is where you render the main react component onto the root element.
+6)logo.svg -> logo of react rotating on the screen when you first run the app.
+7)reportWebVitals.js -> create-react-app includes a built-in tool for measuring the real-life performance of your app.
+-->
+
