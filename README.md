@@ -100,4 +100,3 @@ package.json = meta data associated with the app + dependencies info + scripts--
 6)logo.svg -> logo of react rotating on the screen when you first run the app.
 7)reportWebVitals.js -> create-react-app includes a built-in tool for measuring the real-life performance of your app.
 -->
-
